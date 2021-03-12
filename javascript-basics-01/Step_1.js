@@ -1,1 +1,2 @@
 var name;
+alert ("name");
