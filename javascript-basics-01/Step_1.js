@@ -1,2 +1,2 @@
-var name;
+var name="name";
 alert ("name");
