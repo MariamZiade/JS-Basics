@@ -1,4 +1,8 @@
-
-var images = document.querySelectorAll(src="image1.jpg");
-
-src = "image1.jpg" , onmouseover=this.src='image1_2.jpg' , onmouseout=this.src='image1.jpg';
+function changePic1() {
+    document.querySelector("#image1")
+    image1.src="images/image1_2.jpg"
+}
+function changePic2(){
+    document.querySelector("#image2")
+    image1.src="images/image1.jpg"
+}
