@@ -1,8 +1,11 @@
-function changePic1() {
-    document.querySelector("#image1")
-    image1.src="images/image1.jpg"
+var img1=document.querySelector("#image1");
+img1.addEventListener("mouseover",image2);
+img1.addEventListener("mouseout",image1);
+
+function image1(){
+    img1.src="images/image1.jpg";
 }
-function changePic2(){
-    document.querySelector("#image2")
-    image1.src="images/image1_2.jpg"
+
+function image2(){
+    img1.src="images/image1_2.jpg";
 }
